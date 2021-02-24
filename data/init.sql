@@ -1,13 +1,20 @@
-CREATE DATABASE test;
+CREATE DATABASE contacts
+  COLLATE = 'utf8_general_ci';
 
-use test;
+USE contacts;
 
-CREATE TABLE users (
-	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-	firstname VARCHAR(30) NOT NULL,
-	lastname VARCHAR(30) NOT NULL,
-	email VARCHAR(50) NOT NULL,
-	age INT(3),
-	location VARCHAR(50),
-	date TIMESTAMP
+CREATE TABLE contacts  (
+        id int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+	callsign VARCHAR(10) NOT NULL,
+	frequency FLOAT(6,3),
+	offset VARCHAR(10),
+	tone FLOAT(4,1),
+	name VARCHAR(120),
+	email VARCHAR(50),
+	phone VARCHAR(10),
+	contactdate DATE,
+	city VARCHAR(50),
+	state VARCHAR(35),
+	country VARCHAR(65),
+	notes VARCHAR(600) 
 );
