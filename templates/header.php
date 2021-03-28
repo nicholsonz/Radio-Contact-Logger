@@ -15,4 +15,5 @@
 <div class="header">
 	<a href="index.php"><h1>--- Radio Contact Log ---</h1></a>
 	<a href="logout.php" class="btn btn-danger">Sign Out</a>
+	<a href="myacct.php" class="btn btn-success">My Account</a>
 </div>
