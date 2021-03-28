@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
             "name"      => $_POST['name'],
             "email"     => $_POST['email'],
             "phone"     => $_POST['phone'],
-            "contactdate"       => $_POST['contactdate'],
+            "contactdate"  => $_POST['contactdate'],
             "city"      => $_POST['city'],
             "state"     => $_POST['state'],
             "country"   => $_POST['country'],
@@ -87,9 +87,9 @@ if (isset($_GET['id'])) {
    <a href="modify.php" class="button">Modify</a>
  </div>
 
-<div class="main2">
+<div class="main">
 <h2>Edit Contact</h2>
-
+ <div class="container2">
 <form method="post">
     <?php foreach ($contacts as $key => $value) : ?>
       <label for="<?php echo $key; ?>"><?php echo ucfirst($key); ?></label>
@@ -97,6 +97,7 @@ if (isset($_GET['id'])) {
     <?php endforeach; ?>
     <input type="submit" name="submit" value="Submit">
 </form>
+    </div>
 </div>
 
 <?php require "templates/footer.php"; ?>

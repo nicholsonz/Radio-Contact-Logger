@@ -1,204 +1,325 @@
 .header {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 20px;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
 }
 
 .heading {
-  width: 100%;
-  padding: 10px;
-  border: 0px solid gray;
-  margin: 0px;
-}
-
-.topnav {
-  background-color: #F1F1F1;
-  text-align: center;
- 
-}
-
-.main {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 30px;
-
-}
-
-.main2 {
-  background-color: #F1F1F1;
-  padding: 30px;
-}
-
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 0px solid gray;
+    margin: 0px;
 }
 
 h1 {
-  font-size: 28px;
-  color: black;
-  text-decoration: underline overline black;
-}
-
-h2 {
-  color: gray;
-}
-
-a {
-  text-decoration: none;
+    font-size: 28px;
+    color: black;
+    text-decoration: underline overline black;
 }
 
 h1:hover {
-  text-decoration-thickness: 10%;
-  cursor: pointer;
+    text-decoration-thickness: 10%;
+    cursor: pointer;
 }
 
-
-label {
-	display: block;
-	margin: 5px 0;
+h2 {
+    color: gray;
+    text-align: center;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 1;
-	border: 1px;
-	border-bottom: 1px solid #ddd;
-	padding: 10px;
+.topnav {
+    background-color: #F1F1F1;
+    text-align: center;
 }
 
-td,th {
-	padding: 10px;
-	border-bottom: 1px solid #ddd;
+.main {
+    background-color: #F1F1F1;
+    padding: 30px;
 }
 
-tr {
-  padding: 5px;
-  
-}
-
-tr:hover {background-color: white;
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #45a049;
-  padding: 20px;
-  
+    display: flex;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px 25px;
+    margin: 10px 50px;
+}
+
+.container2 {
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 1;
+    border: 1px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+td,
+th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr {
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: white;
 }
 
 .button {
-  background-color: #008CBA; /*  */
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  color: black;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 5px 25px 5px 25px;
+    background-color: #008CBA;
+    /*  */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 25px 5px 25px;
 }
 
 .button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: white;
 }
 
 .button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
 }
 
 .button2:hover {
-  background-color: #008CBA;
-  color: white;
+    background-color: #008CBA;
+    color: white;
 }
 
 .smallbtn {
-  background-color: #008CBA; /*  */
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  color: black;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 5px 10px 5px 10px;
+    background-color: #008CBA;
+    /*  */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 10px 5px 10px;
 }
 
 .smallbtn:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: white;
 }
 
 .btn {
-  border: 2px solid black;
-  border-radius: 5px;
-  background-color: white;
-  color: black;
-  padding: 5px 8px;
-  font-size: 12px;
-  cursor: pointer;
-  text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger:focus,
+.btn-danger.focus {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #761c19;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.btn-danger:active,
+.btn-danger.active,
+.open>.dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.btn-danger:active:hover,
+.btn-danger.active:hover,
+.open>.dropdown-toggle.btn-danger:hover,
+.btn-danger:active:focus,
+.btn-danger.active:focus,
+.open>.dropdown-toggle.btn-danger:focus,
+.btn-danger:active.focus,
+.btn-danger.active.focus,
+.open>.dropdown-toggle.btn-danger.focus {
+    color: #fff;
+    background-color: #ac2925;
+    border-color: #761c19;
+}
+
+.btn-danger:active,
+.btn-danger.active,
+.open>.dropdown-toggle.btn-danger {
+    background-image: none;
+}
+
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled.focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-danger.focus {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger .badge {
+    color: #d9534f;
+    background-color: #fff;
+}
+
+.col-40 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+}
+
+.col-60 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: hsl(41, 93%, 36%);
+    /*  */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 25px 5px 25px;
+}
+
+
 /* Orange */
+
 .edit {
-  border-color: #ff9800;
-  color: orange;
+    border-color: #ff9800;
+    color: orange;
 }
 
 .edit:hover {
-  background-color: #ff9800;
-  color: white;
+    background-color: #ff9800;
+    color: white;
 }
 
+
 /* Red */
+
 .delete {
-  border-color: #f44336;
-  color: red
+    border-color: #f44336;
+    color: red
 }
 
 .delete:hover {
-  background: #f44336;
-  color: white;
-}
-
-.createbox {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  height: inherit;
-  padding: 3px;
+    background: #f44336;
+    color: white;
 }
 
 form {
-  width: 100%;
-  padding: 20px;
-  background: #F1F1F1;
-  box-shadow: 0 2px 5px #ccc; 
+    width: 100%;
+    padding: 20px;
+    background: #F1F1F1;
+    box-shadow: 0 2px 5px #ccc;
 }
 
 .item {
-  position: relative;
-  margin: 10px 0;
+    position: relative;
+    margin: 10px 0;
 }
 
-.item:hover p, .item:hover i {
-   color: #095484;
-}
-
-@media (min-width: 568px) {
-.name-item {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+.item:hover p,
+.item:hover i {
+    color: #095484;
 }
 
 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
+@media screen and (max-width: 600px) {
+    .col-40,
+    .col-60,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

@@ -51,21 +51,20 @@ if (isset($_POST['submit'])) {
     <blockquote><?php echo $_POST['firstname']; ?> successfully added.</blockquote>
 <?php } ?>
 
-<div class="main2">
+<div class="main">
 <h2>Add Contact</h2>
 
-<div class="createbox">
- <form method="post">
-   <div class="item">
-    <label for="callsign">Call Sign</label>
-    <input type="text" name="callsign" id="callsign">
+ <div class="container">
+  <form method="post">
+  <div class="row">
+   <div class="col-40">
+    <input type="text" name="callsign" id="callsign" placeholder="Call Sign" required>
    </div>
-   <div class="item"> 
-    <label for="frequency">Frequency</label>
-      <input type="text" name="frequency" id="frequency">   
-   </div> 
-   <div class="item">
-     <select name="offset" id="offset">
+   <div class="col-40">
+    <input type="text" name="frequency" id="frequency" placeholder="Frequency">
+   </div>   
+   <div class="col-40">
+      <select name="offset" id="offset">
       <option value="None">Offset</option>
       <option value="-500 kHz">-500 kHz</option>
       <option value="-600 kHz">-600 kHz</option>
@@ -75,29 +74,40 @@ if (isset($_POST['submit'])) {
       <option value="-5 MHz">-5 MHz</option>
       <option value="-12 MHz">-12 MHz</option>
      </select>
+   </div>   
+   <div class="col-40">   
+    <input type="text" name="tone" id="tone" placeholder="Tone">
    </div>
-    <label for="tone">Tone</label>
-    <input type="text" name="tone" id="tone">
-   <div class="item"> 
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name">
-    <label for="email">Email Address</label>
-    <input type="text" name="email" id="email">
-    <label for="phone">Phone #</label>
-    <input type="text" name="phone" id="phone">
-    <label for="contactdate">Contact Date</label>
-    <input type="date" name="contactdate" id="contactdate">
-    <label for="city">City</label>
-    <input type="text" name="city" id="city">
-    <label for="state">State</label>
-    <input type="text" name="state" id="state">
-    <label for="country">Country</label>
-    <input type="text" name="country" id="country">
-    <label for="notes">Notes</label>
-    <input type="text" name="notes" id="notes">
+   <div class="col-40">
+    <input type="text" name="name" id="name" placeholder="Name">
+   </div>
+   <div class="col-40">
+    <input type="text" name="email" id="email" placeholder="Email Address">
+   </div>
+   <div class="col-40">
+    <input type="text" name="phone" id="phone" placeholder="Phone #">
+   </div>
+   <div class="col-40">
+    <input type="date" name="contactdate" id="contactdate" placeholder="Contact Date">
+   </div>
+   <div class="col-40">
+    <input type="text" name="city" id="city" placeholder="City">
+   </div>
+   <div class="col-40">
+    <input type="text" name="state" id="state" placeholder="State">
+   </div>
+   <div class="col-40">
+    <input type="text" name="country" id="country" placeholder="Country">
+   </div>
+   <div class="col-40">
+    <input type="text" name="notes" id="notes" placeholder="Notes" style="height:100px"> 
+   </div>
+   <div class="col-40">
     <input type="submit" name="submit" value="Submit">
    </div>
- </form>
+  </div>
+  </form>
+  </div>
 </div>
 </div>
 <div>

@@ -85,15 +85,17 @@ if (isset($_POST['submit'])) {
         <blockquote>No results found for <?php echo escape($_POST['callsign']); ?>.</blockquote>
     <?php } 
 } ?> 
-
+<div class="main">
 <h2>Find contact based on callsign</h2>
 
-
+<div class="container">
 <form method="post">
     <input type="text" id="callsign" name="callsign" placeholder="Type in call sign...">
     <input type="submit" name="submit" value="View Results">
 </form>
-</dvi>
+</div>
+</div>
+</div>
 <div>
 <?php require "templates/footer.php"; ?>
 </div>
