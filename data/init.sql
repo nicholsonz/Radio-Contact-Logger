@@ -18,3 +18,14 @@ CREATE TABLE contacts  (
 	country VARCHAR(65),
 	notes VARCHAR(600) 
 );
+
+CREATE DATABASE hammers
+  COLLATE = 'utf8_general_ci';
+
+USE hammers;
+
+CREATE TABLE users (
+	    id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	username VARCHAR(50) NOT NULL,
+	password VARCHAR(255) NOT NULL
+);
