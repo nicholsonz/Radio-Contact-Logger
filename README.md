@@ -6,7 +6,7 @@
   3. Apache 2+ web server
  
 ## Installation:
-Install required packages and then copy the files into root directory of web server.  Input database connect details into config.php.  Then navigate to your webhost install.php file (http://localhost/contact/install.php
+Install required packages and then copy the files into root directory of web server.  Input database connect details into config.php.  Then navigate to your webhost install.php file (http://localhost/contact/install.php)
 
 enjoy!
 
