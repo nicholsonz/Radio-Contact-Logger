@@ -2,8 +2,8 @@
 
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', 'password');
-define('DB_NAME', 'hammers');
+define('DB_PASSWORD', 'nich4893');
+define('DB_NAME', 'contacts');
  
 try{
     $pdo = new PDO("mysql:host=" . DB_SERVER . ";dbname=" . DB_NAME, DB_USERNAME, DB_PASSWORD);

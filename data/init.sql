@@ -16,13 +16,10 @@ CREATE TABLE contacts  (
 	city VARCHAR(50),
 	state VARCHAR(35),
 	country VARCHAR(65),
-	notes VARCHAR(600) 
-);
+	notes VARCHAR(600),
+	);
 
-CREATE DATABASE hammers
-  COLLATE = 'utf8_general_ci';
-
-USE hammers;
+USE contacts;
 
 CREATE TABLE users (
 	    id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
