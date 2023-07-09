@@ -1,5 +1,5 @@
 CREATE DATABASE contacts
-  COLLATE = 'utf8_general_ci';
+  COLLATE = 'utf8mb4_general_ci';
 
 USE contacts;
 
